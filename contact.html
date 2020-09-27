@@ -3,7 +3,6 @@
     <head>
         <meta charset="utf-8" />
         <title>Someone's portfolio | Welcome</title>
-        <!-- Bootstrap 4-->
         <link
             rel="stylesheet"
             href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -13,7 +12,31 @@
         <link rel="stylesheet" href="./css/style.css" />
     </head>
     <body>
-        
+        <div class="menu" id="menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="navbar-brand">
+                    <h2>John Doe</h2>
+                </div>
+                <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#"
+                                >Contact Me <span class="sr-only">(current)</span></a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
         <form class="col-4 mx-auto" id="contact-form">
             <div class="form-group">
                 <label for="email">Email address</label>
