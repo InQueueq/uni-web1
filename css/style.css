@@ -1,27 +1,61 @@
-body {
-    background-image: url('../img/background.png');
-}
-.navbar-brand {
-    color: #454545;
-}
-.navbar-brand h2 {
-    text-align: center;
+html {
+    background: rgb(200, 200, 200);
+    background: linear-gradient(0deg, rgba(200, 200, 200, 1) 46%, rgba(255, 255, 255, 1) 100%);
 }
 
-li.nav-item {
-    font-size: 1.5rem;
+.navbar-brand {
+    font-size: 2rem;
+    color: #c0c0c0 !important;
+    text-align: center;
+    text-transform: uppercase;
+}
+.nav-item {
+    text-transform: uppercase;
+    font-size: 1rem;
     margin-right: 7rem;
 }
 
 a.nav-link {
-    color: #515152;
+    color: #c0c0c0 !important;
 }
+a.nav-link:hover {
+    color: #dcdcdc !important;
+}
+
+button .navbar-toggler span {
+    background-color: red;
+}
+
 #contact-form {
     margin-top: 6rem;
 }
 
+section.welcome_area {
+    height: 100vh;
+    background-image: url('../img/introduction_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+div.introduction {
+    padding-top: 50%;
+}
+
+div.introduction h1,
+div.introduction p {
+    color: #c0c0c0;
+    text-align: center;
+    text-transform: uppercase;
+}
+div.introduction h1 {
+    font-family: 'Courier New';
+}
+
 section.home_introduction_area {
-    padding-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 section.feature_area {
@@ -38,8 +72,9 @@ section.feature_area {
 
 .welcome_text p {
     line-height: 24px;
-    font-size: 14px;
+    font-size: 18px;
     margin-bottom: 40px;
+    text-align: justify;
 }
 .main_title h3 {
     color: #222222;
@@ -53,3 +88,11 @@ section.feature_area {
     padding-bottom: 150px;
     background-color: #515152;
 }
+
+footer div.footer_copyright {
+    text-align: center;
+}
+/* @media (min-width: 700px) {
+    section.works .row {
+    }
+} */
